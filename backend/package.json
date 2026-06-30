@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "dev": "nodemon -r dotenv/config --experimental-json-modules  index.js"
+ "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules  index.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
